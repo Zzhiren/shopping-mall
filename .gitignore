@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# config
+source/management/mall-management-background-services/config/base.conf.js
