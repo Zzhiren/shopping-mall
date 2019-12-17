@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node bin/www",
-    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon bin/www",
+    "dev": "cross-env NODE_ENV=development ./node_modules/.bin/nodemon bin/www",
     "prd": "pm2 start bin/www",
     "test": "echo \"Error: no test specified\" && exit 1",
     "appDoc": "jsdoc ./app -r -d ./doc -t ./node_modules/minami",
@@ -17,6 +17,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-convert": "^1.2.0",
     "koa-json": "^2.0.2",
+    "koa-log4": "^2.3.2",
     "koa-logger": "^3.2.0",
     "koa-onerror": "^4.1.0",
     "koa-router": "^7.4.0",
@@ -25,6 +26,7 @@
     "mysql": "^2.17.1"
   },
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "docdash": "^1.1.1",
     "jsdoc": "^3.6.3",
     "minami": "^1.2.3",

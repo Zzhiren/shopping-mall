@@ -3,6 +3,7 @@
  */
 const mysql = require('mysql');
 const mallDataBaseConf = require('../config/base.conf').mallDataBase;
+const logger = require('koa-logger')
 
 /** @function 建立数据库连接 */
 const pool = mysql.createPool({
@@ -33,10 +34,11 @@ exports.mallQuery = (sql, values='') => {
       } else {
         connection.query(mysql.format(sql, values), (err, rows) => {
           if (err) {
+            console.error('sql')
+            console.log(err)
             reject(err);
           } else {
-            resolve(rows);
-            return rows;
+            return resolve(rows);
           }
           connection.release()
         })
