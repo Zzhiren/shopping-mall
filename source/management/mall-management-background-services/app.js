@@ -6,13 +6,17 @@ const onerror = require('koa-onerror');
 const bodyparser = require('koa-bodyparser');
 const logger = require('koa-logger');
 const mallQuery = require('./db/mall').mallQuery;
+const systemQuery = require('./db/system').systemQuery;
+const statusCode = require('./config/status.code');
 const {  accessLogger,systemLogger, } = require('./config/logger');
 const router = require('./app/router');
 
+globalInit();
 // error handler
-onerror(app)
-// 商城数据库调用函数
+onerror(app);
+// 商城数据库和系统数据库调用函数
 app.context.mallQuery = mallQuery;
+app.context.systemQuery = systemQuery;
 // middlewares
 app.use(bodyparser({
   enableTypes:['json', 'form', 'text']
@@ -42,5 +46,11 @@ app.on('error', (err, ctx) => {
   console.error('server error', err, ctx)
   systemLogger.error(err);
 });
+
+function globalInit() {
+  global.mallQuery = mallQuery;       // mysql
+  global.systemQuery = systemQuery;   // mysql
+  global.statusCode = statusCode;     // 状态码
+}
 
 module.exports = app

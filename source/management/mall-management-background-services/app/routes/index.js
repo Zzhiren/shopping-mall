@@ -1,6 +1,6 @@
 const router = require('koa-router')()
 
-router.get('/', async (ctx, next) => {
+router.all('/', async (ctx, next) => {
   let sql = 'select * from user_info;';
   console.log(sql)
   // await ctx.mallQuery(sql).then(res=>{
@@ -21,4 +21,4 @@ router.get('/json', async (ctx, next) => {
   }
 })
 
-module.exports = router
+module.exports = router;

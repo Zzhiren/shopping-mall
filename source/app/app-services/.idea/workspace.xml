@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4bda4e2-b0f0-4560-b5f2-a6f234cd8eda" name="默认更改列表" comment="" />
+    <list default="true" id="c4bda4e2-b0f0-4560-b5f2-a6f234cd8eda" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/app/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/app/service/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/config/status.code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/db/system.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-client/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-client/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-client/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-client/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-client/src/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-client/src/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-client/src/views/user/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-client/src/views/user/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-services/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-services/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-services/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-services/app/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/app/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-services/app/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/app/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-services/db/administration.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/app/controller/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../management/mall-management-background-services/db/mall.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../management/mall-management-background-services/db/mall.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +26,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -50,7 +70,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-206" width="2560" height="1371" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2273086" />

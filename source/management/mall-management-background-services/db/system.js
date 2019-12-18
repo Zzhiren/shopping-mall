@@ -1,20 +1,20 @@
 /**
- * @file 商城数据库连接函数封装
+ * @file 系统管理数据库连接函数封装
  */
 const mysql = require('mysql');
-const mallDataBaseConf = require('../config/base.conf').mallDataBase;
+const systemDataBaseConf = require('../config/base.conf').systemDataBase;
 const logger = require('koa-logger')
 
 /** @function 建立数据库连接 */
 const pool = mysql.createPool({
-  host: mallDataBaseConf.host,
-  user: mallDataBaseConf.user,
-  password: mallDataBaseConf.password,
-  database: mallDataBaseConf.database,
-  connectionLimit: mallDataBaseConf.connectionLimit,
-  queueLimit: mallDataBaseConf.queueLimit,
+  host: systemDataBaseConf.host,
+  user: systemDataBaseConf.user,
+  password: systemDataBaseConf.password,
+  database: systemDataBaseConf.database,
+  connectionLimit: systemDataBaseConf.connectionLimit,
+  queueLimit: systemDataBaseConf.queueLimit,
   acquireTimeout: 1000 * 600,
-  charset: mallDataBaseConf.charset,
+  charset: systemDataBaseConf.charset,
   multipleStatements: true,
   timezone: '+8:00'
 });
@@ -25,7 +25,8 @@ const pool = mysql.createPool({
  * @param {Object[] | string} values - 参数
  * @returns {Promise}
  */
-exports.mallQuery = (sql, values='') => {
+exports.systemQuery = (sql, values='') => {
+  console.log(mysql.format(sql, values))
   return new Promise ((resolve, reject) => {
     pool.getConnection((err, connection) => {
       if (err) {
