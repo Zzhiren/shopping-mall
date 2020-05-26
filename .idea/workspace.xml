@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2eb9aed7-2b12-4b13-a398-bbc11bc5842e" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shopping-mall.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/app/app-services/.idea/app-services.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/app/app-services/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/app/app-services/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/app/app-services/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app/controller/v1/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app/middleware/token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app/routes/v1/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/app/app-services/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/source/app/app-services/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-client/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-client/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-client/src/views/user/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-client/src/views/user/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/app/controller/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/app/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app/controller/v1/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app/routes/v1-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/app/routes/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/app/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app/routes/v1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/app/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app/routes/v1/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/app/service/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app/service/v1/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/app/service/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/app/service/v1/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/config/status.code.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/config/status.code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/db/mall.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/db/mall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/db/system.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/db/system.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/doc/appdoc/global.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/doc/appdoc/global.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/doc/appdoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/doc/appdoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/doc/appdoc/router.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/doc/appdoc/router.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/doc/appdoc/routes_user.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/doc/appdoc/routes_user.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/management/mall-management-background-services/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/management/mall-management-background-services/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="210" />
+    <option name="y" value="145" />
+    <option name="width" value="1260" />
+    <option name="height" value="737" />
+  </component>
+  <component name="ProjectId" id="1bQV3xQ655ymAYbxZZC2SO5MCEb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2eb9aed7-2b12-4b13-a398-bbc11bc5842e" name="默认更改列表" comment="" />
+      <created>1578405296300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578405296300</updated>
+      <workItem from="1578405298938" duration="642000" />
+      <workItem from="1579676386230" duration="357000" />
+      <workItem from="1580045689264" duration="215000" />
+      <workItem from="1580455079666" duration="94000" />
+      <workItem from="1580455202183" duration="136000" />
+      <workItem from="1581844161588" duration="1077000" />
+      <workItem from="1582640134627" duration="49000" />
+      <workItem from="1583505103674" duration="89000" />
+      <workItem from="1588564112454" duration="38000" />
+      <workItem from="1588564211281" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="154" key="SettingsEditor" timestamp="1588564145203">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state x="341" y="154" key="SettingsEditor/0.23.1680.984@0.23.1680.984" timestamp="1588564145203" />
+  </component>
+</project>
